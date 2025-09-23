@@ -5,12 +5,12 @@
 }
 
 nav { 
-    background-color: blue;
+    background-color: rgb(216, 240, 243);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: black;
     display: block;
     padding: 20px;
 }
