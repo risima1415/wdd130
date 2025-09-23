@@ -1,28 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 nav { 
     background-color: blue;
     padding: 10px;
 }
+
 nav a {
     color: white;
     display: block;
     padding: 20px;
 }
+
 h1 {
     color: darkblue;
 }
+
 main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
+
 p {
     padding: 0;
 }
+
 main {
     max-width: 840px;
 }
+
 aside {
     width: 30rem;
     margin: 5px;
@@ -30,13 +43,32 @@ aside {
     padding: 20px;
     background-color: blue;
     color: white;
+    position: relative;
 }
+
+aside h2 {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+
 aside img {
-    width: 200px;
+    width: 300px;
     height: auto;
 }
+
 footer {
     margin-top: 15px;
     border-top: 1px solid black;
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: rgb(216, 240, 243);
+    color: rgb(16, 19, 18);
 }
